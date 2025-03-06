@@ -1,0 +1,292 @@
+.container {
+  position: relative;
+  text-align: center;
+
+}
+
+.topheader {
+  text-align: center;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  
+}
+
+.container {
+  filter:brightness(70%)
+}
+
+.centered {
+  font-family: "montecatini-pro-stretto", serif;
+  font-weight: 700;
+  font-style: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  padding-top: 10%;
+ 
+}
+
+
+li {
+    display: inline-block;
+    margin: 20px;
+    padding-top: 0%;
+    
+    
+}
+
+.logo {
+    display: block;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+    
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.column {
+  text-align: center;
+  display: flex;
+  padding-top: 5%;
+  }
+
+.col-left {
+  width: 50%;
+  margin: 50px;
+  padding-top: 8%;
+  text-align: left;
+  }
+
+.col-right {
+  width: 50%;
+  }
+
+
+.column2 {
+  padding-top: 5%;
+  float: left;
+  width: 50%;
+  text-align: center;
+  }
+
+.bodytext {
+    text-align: left;
+    margin: 50px;
+    font-size: larger;
+    text-transform:lowercase;
+  }
+  
+.row:after {
+    display: table;
+    clear: both;
+    
+  }
+
+.livingroom {
+    width: 100%;
+    height: 480px; 
+    object-fit: cover; 
+    padding-top: 10;
+     
+  }
+
+
+ul {
+  text-align: center;
+  margin: 0
+  
+  }
+
+  ul li {
+    padding: 0 .5em .25em;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+  }
+ 
+
+ul li:before {
+    content: "";
+    position: absolute;
+    inset: calc(100% - 3px) 0 0 0; 
+    background: #ce4f20; 
+    scale: 0 1;
+    transition: .3s, translate 0s .3s;
+    
+  }
+ul:hover li:before {
+    scale: 1;
+  }
+ul li:hover:before {
+    translate: 0;
+    transition: .3s;
+  }
+ul:hover li:has(~ li:hover):before {
+    translate: -100% 0;
+    transition: .2s .2s,scale 0s .4s;
+  }
+ul:hover li:hover ~ li:before {
+    translate: -100% 0;
+    transition: .2s .2s,scale 0s .4s;
+  }
+
+.makerservation {
+  width: 20%;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  
+}
+
+.reservetext{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 8%;
+  font-family: "montecatini-pro-stretto", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:x-large;
+  color: white;
+}
+
+.h-location { 
+  padding-top: 0%;
+  text-align: center;
+  font-size: x-large;
+ 
+}
+
+.l-right {
+  width: 60%;
+  text-align: left;
+  font-size: large;
+}
+
+.h-left {
+  text-align: center;
+  font-size: larger;
+  text-transform:lowercase;
+}
+
+.h-hours {
+  text-align: center;
+  font-size: x-large;
+}
+
+.l-bodytext {
+  text-align: center;
+  font-size: larger;
+  text-transform:lowercase;
+ 
+}
+
+.map{
+  width: 45%;
+  padding-left: 27%;
+}
+
+.border {color: black;}
+
+.footer__redes {
+  margin-top: 10%;
+  padding: 0%;
+}
+
+.footer__texto {
+  text-align: center;
+  font-family: "novecento-sans-wide", sans-serif;
+  font-weight: 300;
+  font-style: normal
+
+}
+
+.b-footer {
+  padding-top: 10%;
+  margin-bottom: 0%;
+}
+
+.w-menu {
+  width: 80%;
+  margin: 10%;
+  height: 950px;
+  object-fit: scale-down;
+}
+
+
+.cat-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cat-img{
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  object-fit:cover;
+}
+
+.cat-text {
+  text-transform: lowercase;
+  padding-top: 0%;
+  margin-left: 30%;
+  margin-right: 50px;
+  font-size: larger;
+  text-align: left;
+}
+
+.cat-header {
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: -30%;
+  margin-left: 45px;
+  
+ 
+}
+
+
+.pfp-container {
+  display: flex;
+  flex-wrap: row;
+  gap: 30px;
+  margin-left: 28%;
+
+}
+
+.pfp {
+  width: 400px;
+  padding-top: 10%;
+}
+
+.text-au {
+  text-align: left;
+  text-transform: lowercase;
+  font-size: larger;
+  margin-top: 2%;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.owners {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: x-large;
+  margin-top: 5%;
+}
+
